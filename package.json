@@ -1,6 +1,6 @@
 {
   "name": "svgtopng",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts SVGs to PNGs",
   "main": "index.js",
   "directories": {
