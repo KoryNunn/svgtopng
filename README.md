@@ -2,7 +2,7 @@
 
 Converts SVGs to PNGs
 
-Inspired by (https://github.com/filamentgroup/svg-to-png)
+Inspired by https://github.com/filamentgroup/svg-to-png
 
 ## usage
 
