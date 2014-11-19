@@ -1,0 +1,18 @@
+{
+  "name": "svgtopng",
+  "version": "1.0.0",
+  "description": "Converts SVGs to PNGs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "phantomjs": "^1.9.7-9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kory Nunn <knunn187@gmail.com>",
+  "license": "ISC"
+}
