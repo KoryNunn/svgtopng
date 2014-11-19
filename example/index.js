@@ -22,3 +22,16 @@ svgToPng(
         console.log(error || 'done');
     }
 );
+
+
+svgToPng(
+    path.join(__dirname, './node.svg'),
+    path.join(__dirname, './results/node20.png'),
+    {
+        width: 20,
+        height: 20
+    },
+    function(error){
+        console.log(error || 'done');
+    }
+);
