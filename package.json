@@ -4,7 +4,7 @@
   "description": "Converts SVGs to PNGs",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "example": "example"
   },
   "dependencies": {
     "phantomjs": "^1.9.7-9"
@@ -14,5 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kory Nunn <knunn187@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KoryNunn/svgtopng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KoryNunn/svgtopng/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/svgtopng"
 }
