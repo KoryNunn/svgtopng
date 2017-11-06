@@ -7,7 +7,7 @@
     "example": "example"
   },
   "dependencies": {
-    "phantomjs": "^1.9.7-9"
+    "phantomjs": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
