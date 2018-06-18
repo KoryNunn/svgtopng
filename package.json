@@ -7,11 +7,14 @@
     "example": "example"
   },
   "dependencies": {
-    "phantomjs": "^1.9.7-9"
+    "phantomjs": "^1.9.7-9",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Kory Nunn <knunn187@gmail.com>",
   "license": "ISC",
@@ -22,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/KoryNunn/svgtopng/issues"
   },
-  "homepage": "https://github.com/KoryNunn/svgtopng"
+  "homepage": "https://github.com/KoryNunn/svgtopng",
+  "snyk": true
 }
