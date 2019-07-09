@@ -8,13 +8,14 @@
   },
   "dependencies": {
     "phantomjs": "^1.9.7-9",
-    "snyk": "^1.105.0"
+    "snyk": "^1.192.4"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Kory Nunn <knunn187@gmail.com>",
   "license": "ISC",
