@@ -31,3 +31,8 @@ patch:
         patched: '2019-07-08T21:25:44.693Z'
     - phantomjs > request > form-data > async > lodash:
         patched: '2019-07-08T21:25:44.693Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-07T21:30:48.994Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-07T21:30:48.994Z'
