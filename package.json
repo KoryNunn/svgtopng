@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "phantomjs": "^1.9.7-9",
-    "snyk": "^1.192.4"
+    "snyk": "^1.317.0"
   },
   "devDependencies": {},
   "scripts": {
